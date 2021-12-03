@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kanak | Portfolio</title>
+    <link rel="stylesheet" href="./sass/master.css?azaaaaaaaa1a">
+    <!-- <link rel="stylesheet" href="style.css?v=1" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header_row">
+          <a class="logo" href="index.html"><img src="images/logo.png"></a>
+          <ul class="navigation">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="skills.html">Skills</a>
+            </li>
+            <li>
+              <a href="work.html">Portfolio</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+
+    <section class="work_section" id="workSection">
+      <div class="container">
+    
+        <h2 class="heading">My Work</h2>
+        <video id="myworkvideo" controls="controls" poster="./images/videoPreview.jpg"><source src="./video/Kumar_kanak_demoreel.mp4" type="video/mp4">
+            
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+        <div class="work_row">
+          <div class="work_column">
+            <div class="work_item">
+              <div class="work_img">
+                <img
+                  src="" alt="" id="work1"
+                />
+              </div>
+
+              <div class="work_content">
+                <h4 class="work_title" id="title1"></h4>
+
+                
+                 
+                </p>
+
+                <div id="wrapper">
+              <p><a class="readmore button" href="#1">Know More</a></p>
+
+                </div>
+  
+              </div>
+            </div>
+          </div>
+       
+          <div class="work_column">
+            <div class="work_item">
+              <div class="work_img">
+                <img
+                src="" alt="" id="work2"
+                />
+              </div>
+              <div class="work_content">
+              <h4 class="work_title" id="title2"></h4>
+
+              
+                 
+                 </p>
+
+                 <p><a class="readmore button" href="#2">Know More</a></p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="work_column">
+            <div class="work_item">
+              <div class="work_img">
+                <img
+                src="" alt="" id="work3"
+                />
+              </div>
+              <div class="work_content">
+              <h4 class="work_title" id="title3"></h4>
+
+             
+                 
+                 </p>
+
+                 <p><a class="readmore button" href="#3">Know More</a></p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="work_column">
+            <div class="work_item">
+              <div class="work_img">
+                <img
+                src="" alt="" id="work4"
+                />
+              </div>
+              <div class="work_content">
+              <h4 class="work_title" id="title4"></h4>
+
+             
+                 
+                 </p>
+                 <p><a class="readmore button" href="#4">Know More</a></p>
+
+              </div>
+            </div>
+          </div>
+
+       
+
+         
+
+         
+        </div>
+      </div>
+    </section>
+    <div id='myapp'>
+        <div v-for='user, key in users'>
+          <div :id=++key class="overlay">
+            <div class="popup">
+              <h2>{{ user.title }}</h2>
+                <a class="close" href="#close">&times;</a>
+              <div class="content">
+                <img :src="user.imagepath"/>
+                <p>{{ user.summary }}</p>
+              </div>  
+            </div>
+	       </div>
+        </div>
+      </div>
+      <script src="js/getworkcontent.js"></script>
+   <footer class="footer_section">
+    <div class="container">
+      <div class="footer_row">
+        <div class="footer_column">
+          <ul class="social_liks">
+            <li>
+              <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="javascript:void(0)"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+            <li>
+              <a href="javascript:void(0)"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer_column">
+          <p class="copyright">Copyright &copy; Kanak. ALL Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+ 
+</body>
+</html>
