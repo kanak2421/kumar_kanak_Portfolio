@@ -1,0 +1,89 @@
+@media(max-width:991px){
+
+    .container{
+        max-width: 720px;
+    }
+
+    .skill_row{
+        flex-wrap: wrap;
+    }
+
+    .hero_section,
+    .skill_section,
+    .work_section, 
+    .contact_section{
+        padding: 60px 0;
+    }
+
+    .btn_row .btn{
+        margin-bottom: 16px;
+    }
+
+    .hero_img-container img{
+        height: 100%;
+    }
+
+    .work_column{
+        width: 50%;
+    }
+    
+}
+
+@media(max-width:767px){
+    .header_row,
+    .hero_row{
+        display: block;
+    }
+
+    .hero_column{
+        width: 100%;
+        margin: 0;
+    }
+
+    .portfolio_name,
+    p{
+        text-align: center;
+    }
+
+    .btn_row{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .work_column,
+    .form_column{
+        width: 100%;
+    }
+
+    .hero_row{
+        margin: 0;
+    }
+
+    .navigation li a{
+        padding: 16px 8px;
+    }
+
+    .footer_column{
+        width: 100%;
+    }
+
+    .social_liks{
+        justify-content: center;
+        margin-bottom: 16px;
+    }
+
+    .copyright{
+        text-align: center;
+    }
+
+    .logo{
+        text-align: center;
+    }
+
+    .work_detail{
+        text-align: left;
+    }
+    .skill_section .skill_row{
+        margin: 0 16px;
+    }
+}

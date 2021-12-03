@@ -1,0 +1,65 @@
+
+.form_row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -16px;
+    .form_column {
+        width: 50%;
+        padding: 0 16px;
+        .form_goup{
+            margin-bottom: 16px;
+            .form_input {
+                width: 100%;
+                border: 1px solid #ddd;
+                padding: 16px;
+                border-radius: 8px;
+            }
+            label {
+                display: block;
+                font-size: 16px;
+                font-weight: 600;
+                margin-bottom: 8px;
+            }
+            select {
+                position: relative;
+                display: flex;
+                width: 20em;
+                height: 3em;
+                border-radius: 0.25em;
+                overflow: hidden;
+            }
+            
+        }
+    }
+    .form-columns_full {
+        width: 100%;
+        padding: 0 16px;
+        .form_textarea{
+            width: 100%;
+            border: 1px solid #ddd;
+            padding: 16px;
+            height: 130px;
+            resize: none;
+            border-radius: 8px;
+        }
+        label {
+            display: block;
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

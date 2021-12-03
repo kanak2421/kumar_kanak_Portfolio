@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kanak | Portfolio</title>
+    <link rel="stylesheet" href="./sass/master.css?azaaaaaaaa1a">
+    <!-- <link rel="stylesheet" href="style.css?v=1" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header_row">
+          <a class="logo" href="index.html"><img src="images/logo.png"></a>
+          <ul class="navigation">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="skills.html">Skills</a>
+            </li>
+            <li>
+              <a href="work.html">Portfolio</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+<section class="contact_section" id="contactSection">
+      <div class="container">
+        <h2 class="heading">Contact Me</h2>
+        <form action="./includes/mail.php" method="post">
+          <div class="form_row">
+          
+          <div class="form_column">
+              <div class="form_goup">
+                <label for="">Select Your Topic</label>
+                <select data-error-message="Please choose a topic" name="topic" id="topic" required="">
+                <option>--Choose A Topic--</option>
+                <option value="hire">Hire Me</option>
+                <option value="collab">Collabration</option>
+                <option value="query">Query</option>
+                <option value="other">Other</option>
+              </select>
+              </div>
+            </div>
+          <div class="form_column">
+              <div class="form_goup">
+                <label for="">First Name</label>
+                <input type="text" class="form_input" name="firstname" required placeholder="First Name" />
+              </div>
+            </div>
+            <div class="form_column">
+              <div class="form_goup">
+                <label for="">Your Email</label>
+                <input
+                  type="email" name="email"
+                  class="form_input"
+                  required placeholder="johndoe@mail.com"
+                />
+              </div>
+            </div>
+            <div class="form_column">
+              <div class="form_goup">
+                <label for="">Last Name</label>
+                <input type="text" class="form_input" name="lastname" required placeholder="Last Name" />
+              </div>
+            </div>
+          
+            <div class="form-columns_full">
+              <div class="form_goup">
+                <label for="">Your Message</label>
+                <textarea name=""  required id="" name="message" class="form_textarea"></textarea>
+              </div>
+            </div>
+            <div class="form-columns_full">
+              <div class="form_goup ta-r">
+                <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    
+    <footer class="footer_section">
+      <div class="container">
+        <div class="footer_row">
+          <div class="footer_column">
+            <ul class="social_liks">
+              <li>
+                <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="javascript:void(0)"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="javascript:void(0)"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_column">
+            <p class="copyright">Copyright &copy; Kanak. ALL Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+   
+  </body>
+</html>
