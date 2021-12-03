@@ -22,7 +22,9 @@ contact form has ben done with php as we were taught in class like contact php f
 Logo and icons of ui/ux, web developer, 3d/motion has been created by me using photoshop and canva.
 Demo reel has been created in cinema4d and then final editing was done in after effects.
 
- I have tried my level best to make it my best version website with all the effects, animation taught in class with vue js,
+ I have tried my level best to make it my best version website with all the effects, animation taught in class with vue js,.
+ Heres the url of my website https://designwithkanak.com/
+ 
  
  
 # Contributor
